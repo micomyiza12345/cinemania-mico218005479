@@ -34,8 +34,7 @@ namespace CineMania.Data
                 {
                     Id = 2,
                     Title = "The Tomorrow War",
-                    Description = "A family man is drafted to fight in a future war where " +
-                                  "the fate of humanity relies on his ability to confront the past.",
+                    Description = "A family man is drafted to fight in a future war where",
                     ImageName = "the_tomorrow_war.jpg",
                     Genre = "Sci-Fi",
                     ReleaseDate = DateTime.Parse("2021-07-02")
@@ -44,8 +43,7 @@ namespace CineMania.Data
                 {
                     Id = 3,
                     Title = "Pitch Perfect",
-                    Description = "Beca, a freshman at Barden University, is cajoled into joining The Bellas, " +
-                                  "her school's all-girls singing group. Injecting some much needed energy into " +
+                    Description = "Beca, a freshman at Barden University, is cajoled into joining The Bellas+
                                   "their repertoire, The Bellas take on their male rivals in a campus competition",
                     ImageName = "black_widow.jpg",
                     Genre = "Comedy",
@@ -130,8 +128,8 @@ namespace CineMania.Data
                     Id = 11,
                     Title = "No Time To Die",
                     Description = "In No Time To Die, Bond has left active service and is enjoying a tranquil life " +
-                                  "in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help.",
-                    ImageName = "no.jpg",
+                                  "g for help.",
+                    ImageName = "1.jpg",
                     Genre = "Drama",
                     ReleaseDate = DateTime.Parse("2020-04-01")
                 },
@@ -140,8 +138,7 @@ namespace CineMania.Data
                     Id = 12,
                     Title = "Sonic",
                     Description = "It is the first installment in a planned Sonic the Hedgehog film series. " +
-                                  " The film follows Sonic the Hedgehog (voiced by Schwartz), who runs supersonic " +
-                                  "speeds,  as he teams up with local town sheriff Tom Wachowski  (Marsden) to find his lost rings and escape" +
+                                  "  (Marsden) to find his lost rings and escape" +
                                   " the mad scientist Dr. Robotnik (Carrey)",
                     ImageName = "sonic.jpg",
                     Genre = "Comedy",
@@ -152,7 +149,7 @@ namespace CineMania.Data
                     Id = 13,
                     Title = "Frozen",
                     Description = "The film depicts a princess who sets off on a journey alongside an iceman, his reindeer," +
-                                  "  and a snowman to find her estranged sister,  whose icy powers have inadvertently trapped " +
+                                  "   trapped " +
                                   "their kingdom in eternal winter.",
                     ImageName = "frozen.jpeg",
                     Genre = "Comedy",
@@ -163,7 +160,7 @@ namespace CineMania.Data
                     Id = 14,
                     Title = "The invisible Man",
                     Description = "The narrator of Invisible Man is a nameless young black man who moves in a 20th-century  United States where" +
-                                  " reality is surreal and who can survive only through pretense.  Because the people he encounters ", 
+                                  " people he encounters ", 
                     ImageName = "invi.jpg",
                     Genre = "Comedy",
                     ReleaseDate = DateTime.Parse("2018-03-12")
@@ -173,7 +170,7 @@ namespace CineMania.Data
                 {
                     Id = 15,
                     Title = "Rampage",
-                    Description = " a course of violent, riotous, or reckless action or behavior.  Other Words from rampage Synonyms Example Sentences Learn More About rampage.",
+                    Description = " Other Words from rampage Synonyms Example Sentences Learn More About rampage.",
                     ImageName = "Ram.jpg",
                     Genre = "Sci-FI",
                     ReleaseDate = DateTime.Parse("2018-03-12")
@@ -182,30 +179,13 @@ namespace CineMania.Data
                 {
                     Id = 16,
                     Title = "Life In Year",
-                    Description = " The movie follows 17-year-old Daryn who finds out that his girlfriend is dying. He sets out to give her an entire life in the last year she has left.",
+                    Description = " The movie  is dying. He sets out to give her an entire life in the last year she has left.",
                     ImageName = "life.jpg",
                     Genre = "Romantic",
                     ReleaseDate = DateTime.Parse("2010-04-07")
                 },
-                new Movie
-                {
-                    Id = 17,
-                    Title = "Joker",
-                    Description = " The Joker, initially portrayed as a small-time crook, was disfigured and driven insane by an accident with toxic chemicals. He was depicted with chalk-white skin, ruby-red lips permanently fixed in a demonic grin, and bright green hair.",
-                    ImageName = "joker.jpg",
-                    Genre = "Crime",
-                    ReleaseDate = DateTime.Parse("2019-03-29")
-                },
-
-                new Movie
-                {
-                    Id = 18,
-                    Title = "Prison break",
-                    Description = "An engineer installs himself in a prison he helped design, in order to save his falsely accused brother from a death sentence.",
-                    ImageName = "priso.jpg",
-                    Genre = "Action",
-                    ReleaseDate = DateTime.Parse("2009-05-29")
-                }
+         
+          
 
             };
           
